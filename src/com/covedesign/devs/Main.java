@@ -24,7 +24,7 @@ import java.util.TimerTask;
 public class Main extends ListActivity {
 
     public static final String TAG = "dev";
-    private Timer timer = new Timer();
+    private Timer timer;
     int backlightLightB = 0;
     private List<ListData> mObjectList = new ArrayList<ListData>();
     AlertDialog.Builder menuBuilder;
@@ -87,6 +87,7 @@ public class Main extends ListActivity {
                                         }
                                         break;
                                     case (5):
+                                        timer = new Timer();
                                         timer.scheduleAtFixedRate(new TimerTask() {
 
                                             public void run() {
@@ -117,6 +118,7 @@ public class Main extends ListActivity {
                                         if (timer != null) {
                                             timer.cancel();
                                             setLED(3, 4);
+                                            backlightLightB = 0;
                                         }
                                         break;
                                     default:
