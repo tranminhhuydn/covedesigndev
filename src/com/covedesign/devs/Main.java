@@ -1,6 +1,5 @@
 package com.covedesign.devs;
 
-
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
@@ -46,12 +45,6 @@ public class Main extends ListActivity {
         boolean enable;
         int id;
     }
-
-
-
-
-
-    
     static class mViewHolder extends ViewHolder {
 
         public mViewHolder(CheckBox t) {

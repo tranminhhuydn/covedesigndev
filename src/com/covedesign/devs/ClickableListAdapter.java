@@ -1,8 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package com.covedesign.devs;
 
 import android.content.Context;
@@ -12,10 +7,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import java.util.ArrayList;
 import java.util.List;
-/**
- *
- * @author sftejoka07
- */
 
 public abstract class ClickableListAdapter extends BaseAdapter {
 	private LayoutInflater mInflater;
