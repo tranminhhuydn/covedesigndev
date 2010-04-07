@@ -147,7 +147,7 @@ public class Main extends ListActivity {
         }
 
         setListAdapter(new mClickableListAdapter(this, R.layout.main, mObjectList));
-        showMessage("This application is only for development use. \n\n\nSource on http://covedeign.se\n\n Use at own risk","Welcome to Covedesign Development app");
+        showMessage("This application is only for development use. \n\n\nSource on http://covedesign.se\n\n Use at own risk","Welcome to Covedesign Development app");
     }
 
     private void showMessage(String msg, String titel) {
